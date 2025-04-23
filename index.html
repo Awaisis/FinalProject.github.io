@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--I used AI to assist me in using the greater and less than signs to enclose the element inside of it for style-->
+    <nav class="navbar">
+        <a href="index.html">HTML Cheat Sheet</a>
+        <a href="css_cheatsheet.html">CSS Cheat Sheet</a>
+        <a href="js_cheatsheet.html">JavaScript Cheat Sheet</a>
+    </nav>
+
+    <button class="themeButton" onclick="toggleTheme()">🌗 Switch Theme</button>
+    <button class="tipButton" onclick="showTip()">🎲 Show Random Tip</button>
+    <p id="tipDisplay"></p>
+    
+    <div class="container">
+        <h1>HTML Cheat Sheet</h1>
+        <div class="grid">
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;!DOCTYPE&gt;</h3>
+                <p>Declares the document type and version of HTML.</p>
+                <code>&lt;!DOCTYPE html&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;p&gt;</h3>
+                <p>Defines a block of text as a paragraph.</p>
+                <code>&lt;p&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;strong&gt;</h3>
+                <p>Gives text strong importance and bolds it</p>
+                <code>&lt;strong&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;h1&gt;</h3>
+                <p>Used as page headings which can range from h1 to h6 (h1 has the largest font, h6 has the smallest)</p>
+                <code>&lt;h1&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;img&gt;</h3>
+                <p>Embeds any image into your document</p>
+                <code>&lt;img&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;a&gt;</h3>
+                <p>Creates hyperlinks to web pages, files, etc.</p>
+                <code>&lt;a&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;br&gt;</h3>
+                <p>Used as a line break to seperate elements</p>
+                <code>&lt;br&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;ol&gt;</h3>
+                <p>An ordered list that counts up by 1 for every new element added to the list</p>
+                <code>&lt;ol&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;ul&gt;</h3>
+                <p>An unordered list that only uses bullet points for evey element added to the list</p>
+                <code>&lt;ul&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;table&gt;</h3>
+                <p>Presents information using rows, columns, and cells, resulting in a table</p>
+                <code>&lt;table&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;caption&gt;</h3>
+                <p>Creates a heading for the table, which makes the table smoother to use and see</p>
+                <code>&lt;caption&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;label&gt;</h3>
+                <p>defines and labels another form element, and helps users understand what the inout is for</p>
+                <code>&lt;label&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;input&gt;</h3>
+                <p>Used to create interactive field forms and is used to enter and retrieve data, like chechboxes, radio buttons, text boxes, etc.</p>
+                <code>&lt;input&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;form&gt;</h3>
+                <p>Primarliy used to collect user input and send it somewhere, alos used for grouping form elements together</p>
+                <code>&lt;form&gt;</code>
+            </div>
+            <div class="flashCard">
+                <button class="favButton" onclick="toggleFavorite(this)">⭐</button>
+                <h3>&lt;footer&gt;</h3>
+                <p>defines the bottom section of a page, generally used for end of websites</p>
+                <code>&lt;footer&gt;</code>
+            </div>
+    </div>
+        </div>
+</body>
+</html>
